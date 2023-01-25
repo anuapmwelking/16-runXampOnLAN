@@ -1,0 +1,16 @@
+1. Go to Your XAMPP Control panel
+2. Click on apache  config  Apache (httpd.conf)
+3. Search for Listen 80 and replace with Listen 8080
+4. After that check your local ip using ipconfig command (cmd console)
+5. Search for ServerName localhost80 and replace with your local ip8080 (ex.192.168.1.1568080)
+6. After that open apache  config  Apache (httpd-xampp.conf)
+7. Search for Alias phpmyadmin “CxamppphpMyAdmin” AllowOverride AuthConfig Require local Replace with Require all granted ErrorDocument 403 errorXAMPP_FORBIDDEN.html.var
+8. Go to xampp  config  click on service and port setting and change apache port 8080
+9. restart xampp
+10.Then hit your ip8080 (ex.xxx.xxx.x.xxx8080) from other computer
+
+How useful was this post
+
+if unable to create xampp control file go to local disk Cxampp go to xamp control file right click on it go to PROPERTIES and then go to COMPATABILITY and RUN as administrator save the setting 
+go to step 8 change port save it  Now you can access it by [yourIp]8080[folderName]
+ex. http://10.10.10.143:8080/rotary-form-upto-email-validation-local/rotary-painting-competition-2023-email-login-validation/
