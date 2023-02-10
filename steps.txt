@@ -14,3 +14,35 @@ How useful was this post
 if unable to create xampp control file go to local disk Cxampp go to xamp control file right click on it go to PROPERTIES and then go to COMPATABILITY and RUN as administrator save the setting 
 go to step 8 change port save it  Now you can access it by [yourIp]8080[folderName]
 ex. http://10.10.10.143:8080/rotary-form-upto-email-validation-local/rotary-painting-competition-2023-email-login-validation/
+
+link: https://www.webfulcreations.com/accessing-localhost-xampp-from-another-computer-over-same-lan-or-wifi-network/
+
+
+****************************************************
+CHANGE THE SERVERNAME OR PORT IN XAMPP
+1) Go to XAMPP -> then Apache -> config search for servname replace localhost with your <desired name>
+
+*****************************************************
+how to start an application in windows after startup
+1) click windows + r
+2) then run shell:startup
+3) in windows search bar-> search your desired app right click on it go to file location copy the shortcut of the file and paste in the shell:startup window
+4) search for autostartup apps in search bar of windows 
+5) now your app will show in auto startup section
+
+****************************************************
+HOW TO CHANGE THE DYNAMIC IP TO STATIC IP
+1) Go to ethernet settings right click on it click on open network and settings
+then go to ethernet
+and then change ethernet settings then select your ethernet and then go to properties
+click on: INTERNET PROTOCOL VERSTION 4
+then use the following ip:
+given ip range from number 0 t0 255
+fill the previous subnet mask (check using ipconfig in cmd)
+fill default gateway of previous (ipconfig)
+
+
+then use the following DNS adressess
+preferred dns server 8.8.8.8
+alternate dns server 8.8.4.4
+
